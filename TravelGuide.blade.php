@@ -8,7 +8,7 @@
 
 
     <!-- Favicon -->
-    <link href="/../../favicon.ico" rel="icon">
+    <link href="favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,13 +18,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="/../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="/../../css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-
 
 <body>
     <!-- Header Start -->
@@ -97,76 +96,111 @@
     </div>
     <!-- Header End -->
 
+<br><br>
+   <center><h1>Popular Destinations</h1></center>
 
-        <!-- Page Header Start -->
-        <div class="container-fluid bg-primary py-5 mb-5">
-        <div class="container py-5">
-            <div class="row align-items-center py-4">
-                <div class="col-md-6 text-center text-md-left">
-                    <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">e-Tablet Approval</h1>
+
+
+<!-- Blog Start -->
+
+<div class="container-fluid pt-5">
+        <div class="container pt-5">
+            <div class="row align-items-end mb-4">
+                <div class="col-lg-6">
+                    <!-- <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Latest Blog</h6> -->
+                    <!-- <h1 class="section-title mb-3">Latest Articles From Our Blog Post</h1> -->
                 </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="btn btn-sm btn-outline-light" href="">Home</a>
-                        <i class="fas fa-angle-double-right text-light mx-2"></i>
-                        <a class="btn btn-sm btn-outline-light disabled" href="">eTablet Approval</a>
+                <div class="col-lg-6">
+                    <!-- <h4 class="font-weight-normal text-muted mb-3">Eirmod kasd duo eos et magna, diam dolore stet sea clita sit ea erat lorem. Ipsum eos ipsum magna lorem stet</h4> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/ella.jpeg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
                     </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ella</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Sri Lanka</a>
+                    </div>
+                    
+                    <h5 class="font-weight-medium mb-2">Hilly town, scenic views.</h5>
+                    <p class="mb-4">Ella is surrounded by hills covered with cloud forests and tea plantations. The town has a cooler climate than surrounding lowlands, due to its elevation. The Ella Gap allows views across the southern plains of Sri Lanka. On a sunny morning, you can even see the glow from the lighthouses along the southern coast.</p>
+                   
+                    <a class="btn btn-sm btn-primary py-2" href="">View Demo</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/pera.jpeg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Peradeniya</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Sri Lanka</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">Historic station, railway junction.</h5>
+                    <p class="mb-4">Peradeniya railway station is one of the oldest railway stations in Sri Lanka, opening in 1867 when the rail line was extended from Ambepussa to Kandy, as a part of the first train route which connected Colombo to Kandy. Initially the station was not a railway junction station.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="">View Demo</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/ohiy.jpeg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ohiya</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Sri Lanka</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">Mountain station, 67th on Main Line.</h5>
+                    <p class="mb-4">Ohiya Railway Station is the 67th station on the Main line (which runs between Colombo and Badulla) It is the third highest railway station of Sri Lanka, situated 1,774 m (5,820 ft) above sea level and opened in 1893.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="">View Demo</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/ohiy.jpeg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Ohiya</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Sri Lanka</a>
+                    </div>
+                    <h5 class="font-weight-medium mb-2">Mountain station, 67th on Main Line.</h5>
+                    <p class="mb-4">Ohiya Railway Station is the 67th station on the Main line (which runs between Colombo and Badulla) It is the third highest railway station of Sri Lanka, situated 1,774 m (5,820 ft) above sea level and opened in 1893.</p>
+                    <a class="btn btn-sm btn-primary py-2" href="">View Demo</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Header End -->
-
-    <div class="container-fluid py-5">
-    <div class="container">
-        <div class="row align-items-end mb-4">
-            <div class="col-lg-12">
-                <h1 class="section-title mb-3"> KADUGANNAWA <- PILIMATHALAWA -> PERADENIYA </h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-7 mb-5 mb-lg-0">
-                <div class="contact-form">
-                    <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col-sm-6 control-group">
-                                <h5> Status </h5>
-                                <input type="text" class="form-control p-4" id="name" value="Close" readonly/>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <h5> Log history </h5>
-                        <div class="control-group">
-                            <textarea class="form-control p-4" rows="6" id="message" readonly>
-                                @foreach($data as $etablet)    From: {{$etablet->req_station}}
-                                    Status: {{$etablet->status}}
-                                    Request Time: {{$etablet->created_at}}
-                                @endforeach
-                            </textarea>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-5" style="min-height: 400px;">
-                <div class="position-relative h-100 rounded overflow-hidden">
-                    @foreach($data as $etablet)
-                        <form action="/approve/{{$etablet->id}}" method="POST">
-                            @csrf
-                            <button type="submit" class="btn btn-danger btn-block py-3 px-5">Accept eTablet</button>
-                        </form>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Contact End -->
+    <!-- Blog End -->
+    
 
 
+    
+  
 
+ 
 
+  
+             
 
+    
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
@@ -251,17 +285,19 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="/../../lib/easing/easing.min.js"></script>
-    <script src="/../../lib/waypoints/waypoints.min.js"></script>
-    <script src="/../../lib/counterup/counterup.min.js"></script>
-    <script src="/../../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/../../lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="/../../lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="/../../js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
-

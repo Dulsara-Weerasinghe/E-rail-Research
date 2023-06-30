@@ -2,9 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\UserController;
-use App\Http\Controllers\Stationmaster\StationmasterController;
-use App\Http\Controllers\eTabletController;
-use App\Http\Controllers\MLController;
 
 
 /*
@@ -55,14 +52,3 @@ Route::prefix('user')->name('user.')->group(function(){
 // });
 
 
-Route::get('/flask', [FlaskController::class, 'executeFlaskApp']);
-
-Route::get('/predict/154.21/250.12/220/12/190.21/0.0/0.0/1/0,1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0', [MLController::class, 'predict']);
-
-Route::post('/request',[eTabletController::class,'storeTablet']);
-
-Route::get('/accept/{station}',[eTabletController::class,'getRequest']);
-
-Route::post('/approve/{id}', [eTabletController::class, 'updateTablet']);
-
-Route::view('/travel','TravelGuide')->name('travel');
